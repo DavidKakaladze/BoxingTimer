@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63AAE9771C7A4D2F00C9FF58 /* boxgirl.png in Resources */ = {isa = PBXBuildFile; fileRef = 63AAE9751C7A4D2F00C9FF58 /* boxgirl.png */; };
+		63AAE9781C7A4D2F00C9FF58 /* fedor.png in Resources */ = {isa = PBXBuildFile; fileRef = 63AAE9761C7A4D2F00C9FF58 /* fedor.png */; };
+		63AAE97A1C7C5D4400C9FF58 /* contodev.png in Resources */ = {isa = PBXBuildFile; fileRef = 63AAE9791C7C5D4400C9FF58 /* contodev.png */; };
 		63E1C6A01C3E8B43003BAD46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E1C69F1C3E8B43003BAD46 /* main.m */; };
 		63E1C6A31C3E8B43003BAD46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E1C6A21C3E8B43003BAD46 /* AppDelegate.m */; };
 		63E1C6A61C3E8B43003BAD46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E1C6A51C3E8B43003BAD46 /* ViewController.m */; };
@@ -15,6 +18,18 @@
 		63E1C6AE1C3E8B43003BAD46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E1C6AC1C3E8B43003BAD46 /* LaunchScreen.storyboard */; };
 		63E1C6B91C3E8B43003BAD46 /* BoxingTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E1C6B81C3E8B43003BAD46 /* BoxingTimerTests.m */; };
 		63E1C6C41C3E8B43003BAD46 /* BoxingTimerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E1C6C31C3E8B43003BAD46 /* BoxingTimerUITests.m */; };
+		63E1C6D31C3E8B72003BAD46 /* MSWeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E1C6D21C3E8B72003BAD46 /* MSWeakTimer.m */; };
+		63E1C6E01C3EF03E003BAD46 /* gong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63E1C6DF1C3EF03E003BAD46 /* gong.mp3 */; };
+		63E1C6E61C3EF38E003BAD46 /* appicon58(1).png in Resources */ = {isa = PBXBuildFile; fileRef = 63E1C6E21C3EF38E003BAD46 /* appicon58(1).png */; };
+		63E1C6E71C3EF38E003BAD46 /* appicon80(1).png in Resources */ = {isa = PBXBuildFile; fileRef = 63E1C6E31C3EF38E003BAD46 /* appicon80(1).png */; };
+		63E1C6E81C3EF38E003BAD46 /* appicon87(1).png in Resources */ = {isa = PBXBuildFile; fileRef = 63E1C6E41C3EF38E003BAD46 /* appicon87(1).png */; };
+		63E1C6EB1C3EF3C7003BAD46 /* appicon120(1).png in Resources */ = {isa = PBXBuildFile; fileRef = 63E1C6E91C3EF3C7003BAD46 /* appicon120(1).png */; };
+		63E1C6EC1C3EF3C7003BAD46 /* appicon180(1).png in Resources */ = {isa = PBXBuildFile; fileRef = 63E1C6EA1C3EF3C7003BAD46 /* appicon180(1).png */; };
+		63E1C6EE1C3EF8F9003BAD46 /* LS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63E1C6ED1C3EF8F9003BAD46 /* LS.jpg */; };
+		63FD54181C64D25500A7DE6B /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FD54171C64D25500A7DE6B /* MoreViewController.m */; };
+		63FD541A1C64D2E600A7DE6B /* photo-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FD54191C64D2E600A7DE6B /* photo-7.png */; };
+		63FD541C1C64D2EE00A7DE6B /* clock-stopwatch-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FD541B1C64D2EE00A7DE6B /* clock-stopwatch-7.png */; };
+		63FD54281C70B80D00A7DE6B /* boxing.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FD54251C70B80D00A7DE6B /* boxing.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +50,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		63AAE9751C7A4D2F00C9FF58 /* boxgirl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boxgirl.png; path = "../../../картинки для бокса/обработанные/boxgirl.png"; sourceTree = "<group>"; };
+		63AAE9761C7A4D2F00C9FF58 /* fedor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fedor.png; path = "../../../картинки для бокса/обработанные/fedor.png"; sourceTree = "<group>"; };
+		63AAE9791C7C5D4400C9FF58 /* contodev.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contodev.png; sourceTree = "<group>"; };
 		63E1C69B1C3E8B43003BAD46 /* BoxingTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoxingTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E1C69F1C3E8B43003BAD46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63E1C6A11C3E8B43003BAD46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +69,20 @@
 		63E1C6BF1C3E8B43003BAD46 /* BoxingTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoxingTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E1C6C31C3E8B43003BAD46 /* BoxingTimerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoxingTimerUITests.m; sourceTree = "<group>"; };
 		63E1C6C51C3E8B43003BAD46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63E1C6D11C3E8B72003BAD46 /* MSWeakTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSWeakTimer.h; sourceTree = "<group>"; };
+		63E1C6D21C3E8B72003BAD46 /* MSWeakTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSWeakTimer.m; sourceTree = "<group>"; };
+		63E1C6DF1C3EF03E003BAD46 /* gong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gong.mp3; sourceTree = "<group>"; };
+		63E1C6E21C3EF38E003BAD46 /* appicon58(1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appicon58(1).png"; sourceTree = "<group>"; };
+		63E1C6E31C3EF38E003BAD46 /* appicon80(1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appicon80(1).png"; sourceTree = "<group>"; };
+		63E1C6E41C3EF38E003BAD46 /* appicon87(1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appicon87(1).png"; sourceTree = "<group>"; };
+		63E1C6E91C3EF3C7003BAD46 /* appicon120(1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appicon120(1).png"; sourceTree = "<group>"; };
+		63E1C6EA1C3EF3C7003BAD46 /* appicon180(1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appicon180(1).png"; sourceTree = "<group>"; };
+		63E1C6ED1C3EF8F9003BAD46 /* LS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LS.jpg; sourceTree = "<group>"; };
+		63FD54161C64D25500A7DE6B /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
+		63FD54171C64D25500A7DE6B /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
+		63FD54191C64D2E600A7DE6B /* photo-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-7.png"; sourceTree = "<group>"; };
+		63FD541B1C64D2EE00A7DE6B /* clock-stopwatch-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-stopwatch-7.png"; sourceTree = "<group>"; };
+		63FD54251C70B80D00A7DE6B /* boxing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boxing.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +137,16 @@
 				63E1C6A21C3E8B43003BAD46 /* AppDelegate.m */,
 				63E1C6A41C3E8B43003BAD46 /* ViewController.h */,
 				63E1C6A51C3E8B43003BAD46 /* ViewController.m */,
+				63E1C6D11C3E8B72003BAD46 /* MSWeakTimer.h */,
+				63E1C6D21C3E8B72003BAD46 /* MSWeakTimer.m */,
+				63FD54161C64D25500A7DE6B /* MoreViewController.h */,
+				63FD54171C64D25500A7DE6B /* MoreViewController.m */,
 				63E1C6A71C3E8B43003BAD46 /* Main.storyboard */,
 				63E1C6AA1C3E8B43003BAD46 /* Assets.xcassets */,
 				63E1C6AC1C3E8B43003BAD46 /* LaunchScreen.storyboard */,
 				63E1C6AF1C3E8B43003BAD46 /* Info.plist */,
+				63E1C6D41C3E9D91003BAD46 /* Icons */,
+				63FD54231C70B7EF00A7DE6B /* Images */,
 				63E1C69E1C3E8B43003BAD46 /* Supporting Files */,
 			);
 			path = BoxingTimer;
@@ -117,6 +155,7 @@
 		63E1C69E1C3E8B43003BAD46 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				63E1C6DF1C3EF03E003BAD46 /* gong.mp3 */,
 				63E1C69F1C3E8B43003BAD46 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +177,32 @@
 				63E1C6C51C3E8B43003BAD46 /* Info.plist */,
 			);
 			path = BoxingTimerUITests;
+			sourceTree = "<group>";
+		};
+		63E1C6D41C3E9D91003BAD46 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				63E1C6E21C3EF38E003BAD46 /* appicon58(1).png */,
+				63E1C6E31C3EF38E003BAD46 /* appicon80(1).png */,
+				63E1C6E41C3EF38E003BAD46 /* appicon87(1).png */,
+				63E1C6E91C3EF3C7003BAD46 /* appicon120(1).png */,
+				63E1C6EA1C3EF3C7003BAD46 /* appicon180(1).png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		63FD54231C70B7EF00A7DE6B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				63E1C6ED1C3EF8F9003BAD46 /* LS.jpg */,
+				63AAE9751C7A4D2F00C9FF58 /* boxgirl.png */,
+				63AAE9761C7A4D2F00C9FF58 /* fedor.png */,
+				63FD54251C70B80D00A7DE6B /* boxing.png */,
+				63FD541B1C64D2EE00A7DE6B /* clock-stopwatch-7.png */,
+				63FD54191C64D2E600A7DE6B /* photo-7.png */,
+				63AAE9791C7C5D4400C9FF58 /* contodev.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,8 +311,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63E1C6EE1C3EF8F9003BAD46 /* LS.jpg in Resources */,
+				63AAE97A1C7C5D4400C9FF58 /* contodev.png in Resources */,
+				63E1C6E71C3EF38E003BAD46 /* appicon80(1).png in Resources */,
 				63E1C6AE1C3E8B43003BAD46 /* LaunchScreen.storyboard in Resources */,
+				63AAE9781C7A4D2F00C9FF58 /* fedor.png in Resources */,
+				63E1C6EC1C3EF3C7003BAD46 /* appicon180(1).png in Resources */,
+				63E1C6E01C3EF03E003BAD46 /* gong.mp3 in Resources */,
+				63AAE9771C7A4D2F00C9FF58 /* boxgirl.png in Resources */,
+				63E1C6EB1C3EF3C7003BAD46 /* appicon120(1).png in Resources */,
+				63FD541C1C64D2EE00A7DE6B /* clock-stopwatch-7.png in Resources */,
+				63FD54281C70B80D00A7DE6B /* boxing.png in Resources */,
 				63E1C6AB1C3E8B43003BAD46 /* Assets.xcassets in Resources */,
+				63E1C6E61C3EF38E003BAD46 /* appicon58(1).png in Resources */,
+				63E1C6E81C3EF38E003BAD46 /* appicon87(1).png in Resources */,
+				63FD541A1C64D2E600A7DE6B /* photo-7.png in Resources */,
 				63E1C6A91C3E8B43003BAD46 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,8 +352,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				63E1C6A61C3E8B43003BAD46 /* ViewController.m in Sources */,
+				63E1C6D31C3E8B72003BAD46 /* MSWeakTimer.m in Sources */,
 				63E1C6A31C3E8B43003BAD46 /* AppDelegate.m in Sources */,
 				63E1C6A01C3E8B43003BAD46 /* main.m in Sources */,
+				63FD54181C64D25500A7DE6B /* MoreViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +579,7 @@
 				63E1C6CA1C3E8B43003BAD46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63E1C6CB1C3E8B43003BAD46 /* Build configuration list for PBXNativeTarget "BoxingTimerTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +588,7 @@
 				63E1C6CD1C3E8B43003BAD46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63E1C6CE1C3E8B43003BAD46 /* Build configuration list for PBXNativeTarget "BoxingTimerUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +597,7 @@
 				63E1C6D01C3E8B43003BAD46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

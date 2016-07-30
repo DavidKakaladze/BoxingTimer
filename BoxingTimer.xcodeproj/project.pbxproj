@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		63AAE9771C7A4D2F00C9FF58 /* boxgirl.png in Resources */ = {isa = PBXBuildFile; fileRef = 63AAE9751C7A4D2F00C9FF58 /* boxgirl.png */; };
-		63AAE9781C7A4D2F00C9FF58 /* fedor.png in Resources */ = {isa = PBXBuildFile; fileRef = 63AAE9761C7A4D2F00C9FF58 /* fedor.png */; };
+		633D41EE1D36C6F60075F5F7 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633D41EC1D36C6F60075F5F7 /* Fabric.framework */; };
+		633D41EF1D36C6F70075F5F7 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633D41ED1D36C6F60075F5F7 /* Crashlytics.framework */; };
 		63AAE97A1C7C5D4400C9FF58 /* contodev.png in Resources */ = {isa = PBXBuildFile; fileRef = 63AAE9791C7C5D4400C9FF58 /* contodev.png */; };
 		63E1C6A01C3E8B43003BAD46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E1C69F1C3E8B43003BAD46 /* main.m */; };
 		63E1C6A31C3E8B43003BAD46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E1C6A21C3E8B43003BAD46 /* AppDelegate.m */; };
@@ -50,8 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		63AAE9751C7A4D2F00C9FF58 /* boxgirl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boxgirl.png; path = "../../../картинки для бокса/обработанные/boxgirl.png"; sourceTree = "<group>"; };
-		63AAE9761C7A4D2F00C9FF58 /* fedor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fedor.png; path = "../../../картинки для бокса/обработанные/fedor.png"; sourceTree = "<group>"; };
+		633D41EC1D36C6F60075F5F7 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		633D41ED1D36C6F60075F5F7 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		63AAE9791C7C5D4400C9FF58 /* contodev.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contodev.png; sourceTree = "<group>"; };
 		63E1C69B1C3E8B43003BAD46 /* BoxingTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoxingTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E1C69F1C3E8B43003BAD46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -90,6 +90,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				633D41EF1D36C6F70075F5F7 /* Crashlytics.framework in Frameworks */,
+				633D41EE1D36C6F60075F5F7 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +135,8 @@
 		63E1C69D1C3E8B43003BAD46 /* BoxingTimer */ = {
 			isa = PBXGroup;
 			children = (
+				633D41EC1D36C6F60075F5F7 /* Fabric.framework */,
+				633D41ED1D36C6F60075F5F7 /* Crashlytics.framework */,
 				63E1C6A11C3E8B43003BAD46 /* AppDelegate.h */,
 				63E1C6A21C3E8B43003BAD46 /* AppDelegate.m */,
 				63E1C6A41C3E8B43003BAD46 /* ViewController.h */,
@@ -195,8 +199,6 @@
 			isa = PBXGroup;
 			children = (
 				63E1C6ED1C3EF8F9003BAD46 /* LS.jpg */,
-				63AAE9751C7A4D2F00C9FF58 /* boxgirl.png */,
-				63AAE9761C7A4D2F00C9FF58 /* fedor.png */,
 				63FD54251C70B80D00A7DE6B /* boxing.png */,
 				63FD541B1C64D2EE00A7DE6B /* clock-stopwatch-7.png */,
 				63FD54191C64D2E600A7DE6B /* photo-7.png */,
@@ -215,6 +217,8 @@
 				63E1C6971C3E8B43003BAD46 /* Sources */,
 				63E1C6981C3E8B43003BAD46 /* Frameworks */,
 				63E1C6991C3E8B43003BAD46 /* Resources */,
+				633D41EB1D36C6D10075F5F7 /* ShellScript */,
+				633D41F01D36C7BA0075F5F7 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -315,10 +319,8 @@
 				63AAE97A1C7C5D4400C9FF58 /* contodev.png in Resources */,
 				63E1C6E71C3EF38E003BAD46 /* appicon80(1).png in Resources */,
 				63E1C6AE1C3E8B43003BAD46 /* LaunchScreen.storyboard in Resources */,
-				63AAE9781C7A4D2F00C9FF58 /* fedor.png in Resources */,
 				63E1C6EC1C3EF3C7003BAD46 /* appicon180(1).png in Resources */,
 				63E1C6E01C3EF03E003BAD46 /* gong.mp3 in Resources */,
-				63AAE9771C7A4D2F00C9FF58 /* boxgirl.png in Resources */,
 				63E1C6EB1C3EF3C7003BAD46 /* appicon120(1).png in Resources */,
 				63FD541C1C64D2EE00A7DE6B /* clock-stopwatch-7.png in Resources */,
 				63FD54281C70B80D00A7DE6B /* boxing.png in Resources */,
@@ -345,6 +347,35 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		633D41EB1D36C6D10075F5F7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run de166adc0c8cf72222e761905a1a54f2b99c21f7 46d73674840bd72596f57e51b14f998b0d82fa0ea17d5a98ec6f59ab55cde564";
+		};
+		633D41F01D36C7BA0075F5F7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run de166adc0c8cf72222e761905a1a54f2b99c21f7 46d73674840bd72596f57e51b14f998b0d82fa0ea17d5a98ec6f59ab55cde564";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		63E1C6971C3E8B43003BAD46 /* Sources */ = {
@@ -494,8 +525,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/BoxingTimer",
+				);
 				INFOPLIST_FILE = BoxingTimer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "david-kakaladze.BoxingTimer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -505,8 +542,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/BoxingTimer",
+				);
 				INFOPLIST_FILE = BoxingTimer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "david-kakaladze.BoxingTimer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

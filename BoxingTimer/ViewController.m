@@ -6,10 +6,31 @@
 //  Copyright © 2016 David Kakaladze. All rights reserved.
 //
 
+//исправить:
+//1) При работе таймера можно изменить время и раунды, нужно чтобы нельзя
+//2) При нажатии на Cancel в запущеном таймере он не останавливается, должно все обнуляться и останавливаться
+//3) При нажатии на Stop, а потом на Start все начинается сначала, нужно чтобв продолжало с остановленного места
+//4) При повторном нажатии старт\стоп не нужно показывать алерт
+//5) когда все раунды заканчиваются нужно счетчики нужно автоматически обнулять
+//6) когда заканчивается последний раунд показывает -1, нужно 0
+//
+//доработать:
+//1) UICollectionViewCell смена обоев на таймере
+//2) При запущенном таймере вместо UIPickerView меняется на PlayerViewController с подкрузкой музыки с телефона
+//3) Сделать набор обоев
+//4) поставить нормальные иконки на таббар
+//5) Сделать нормальный экран загрузки
+//
+//в идеале:
+//1) разбить все по классам
+
+
 #import "ViewController.h"
 #import "MSWeakTimer.h"
 #import <AudioToolbox/AudioServices.h>
 #import "MoreViewController.h"
+
+
 
 @interface ViewController () <UIPickerViewDataSource,UIPickerViewDelegate>
 
@@ -26,7 +47,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    sleep(3);
+  
+
+    
+    //sleep(3);
     self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"boxing.png"]];
     
     self.roundsCount = 1;
@@ -143,14 +167,24 @@
     
     if (_timeWorkCount == 0) {
         UIAlertView *message = [[UIAlertView alloc]initWithTitle:@"Ошибка!"
-                                                         message:@"Задайте время отсчета"
+                                                         message:@"Задайте время работы"
                                                         delegate:nil
                                                cancelButtonTitle:@"ok"
                                                otherButtonTitles:nil];
         [message show];
         
-        NSLog(@"values is 0");
+        NSLog(@"value time work is 0");
         
+    } else if (_timeRestCount == 0 ) {
+            UIAlertView *message = [[UIAlertView alloc]initWithTitle:@"Ошибка!"
+                                                             message:@"Задайте время отдыха"
+                                                            delegate:nil
+                                                   cancelButtonTitle:@"ok"
+                                                   otherButtonTitles:nil];
+            [message show];
+            
+            NSLog(@"value time rest is 0");
+            
     } else {
         
         UIAlertView *message = [[UIAlertView alloc]initWithTitle:@"Внимание!"
@@ -159,6 +193,8 @@
                                                cancelButtonTitle:@"Я понял"
                                                otherButtonTitles:nil];
         [message show];
+        
+        #pragma mark Sound
         
         SystemSoundID clickSound;
         AudioServicesCreateSystemSoundID(CFBundleCopyResourceURL(CFBundleGetMainBundle(), CFSTR("gong"), CFSTR("mp3"), NULL), &clickSound);
@@ -256,6 +292,9 @@
         }
     }
 }
+
+
+
 #pragma mark backgroundTimer
 
 @end

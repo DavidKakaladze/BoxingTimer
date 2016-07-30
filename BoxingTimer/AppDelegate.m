@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import <Fabric/Fabric.h>
+#import <Crashlytics/Crashlytics.h>
 @interface AppDelegate ()
 
 @end
@@ -16,8 +17,12 @@
 
 
 
+
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [UIApplication sharedApplication].idleTimerDisabled = YES;
+    [Fabric with:@[[Crashlytics class]]];
+
     return YES;
 }
 
